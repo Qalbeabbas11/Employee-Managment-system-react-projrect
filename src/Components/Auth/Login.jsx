@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import favicon from "./assets/images/favicon.png";
+
 
 const Login = ({handleLogin}) => {
   
@@ -23,7 +23,7 @@ const Login = ({handleLogin}) => {
         <div className=" p-10 rounded-xl bg-emerald-100">
           <div className="head flex justify-center flex-col items-center mb-3 gap-3">
             <img
-              src="{favicon}"
+              src="public/images/favicon.png"
               className="w-32 h-32 object-cover rounded-md "
               alt=""
             />
